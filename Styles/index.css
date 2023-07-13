@@ -1,0 +1,326 @@
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+}
+#background {
+  width: 99%;
+  margin: auto;
+  height: 590px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; 
+  margin-top: 100px;     
+  background: linear-gradient(to bottom right, #3d97ce 0%, #12debb 100%);
+  /* border: 1px solid black; */
+}
+.subdiv {
+  width: 26%;
+  height: 60%;
+  /* border: 1px solid green; */
+}
+.subdiv2 {
+  width: 40%;
+  height: 100%;
+  /* border: 1px solid green; */
+}
+.subdiv > p:nth-child(1),
+p:nth-child(2) {
+  line-height: 14px;
+  font-size: 38px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.subdiv > p:nth-child(3) {
+  font-size: 20px;
+  text-align: left;
+  word-spacing: 0.5px;
+  line-height: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.subdiv > button {
+  width: 140px;
+  height: 45px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+}
+.subdiv > button:hover{
+  background-color: rgb(33, 31, 31);
+}
+.subdiv2 > img {
+  width: 100%;
+  height: 100%;
+}
+#FB_Plus{
+  width: 99%;
+  height: 530px;
+  margin: auto;
+  margin-top: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#f3e6f6;
+  /* border: 1px solid black; */
+}
+.center{
+  width: 50%;
+  height: 100%;
+  /* border: 1px solid black; */
+}
+.c-div1{
+   width: 50%;
+   height: 50%; 
+   margin: auto;
+   /* border: 1px solid black;   */
+}
+.c-div2{
+   width: 100%;
+   height: 45%; 
+   margin: auto;
+   /* border: 1px solid black;   */
+}
+.c-div1 > div:nth-child(1) > p{
+  font-size: 38px;
+  margin-top: 25px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+span{
+  font-weight: bold;
+  color: #6da9d5;
+}
+.c-div1 > div:nth-child(2) > p{
+  font-size: 18px;
+  text-align: left;
+  word-spacing: 0.5px;
+  margin-top: -20px;
+  line-height: 23px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.c-div1 > div:nth-child(3){
+  text-align: center;
+}
+.c-div1 > div > button{
+  width: 140px;
+  height: 45px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+} 
+.c-div1 > div > button:hover{
+  background-color: rgb(40, 37, 37);
+}
+.c-div2 > img{
+  width: 100%;
+  height: 100%;
+  /* background-color: red; */
+}
+#grid{
+  width: 99%;
+  /* height: 1000px; */
+  margin: auto;
+  margin-top: 8px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(2,550px);
+  gap: 10px;
+  /* border: 1px solid black; */
+}
+.subgrid{
+  width: 100%;
+  background-color: #f0f4f6;
+}
+.grid1 > .div1{
+  width: 60%;
+  height: 30%;
+  margin: auto;
+  /* border: 1px solid red; */
+}
+.grid1 > .div1 > h2{
+  font-size: 30px;
+  margin-top: 25px;
+  text-align: center;
+}
+.grid1 > .div1 > p:nth-child(2){
+  font-size: 15px;
+  line-height: 20px;
+  word-spacing: 2px;
+  width: 80%;
+  margin: auto;
+  margin-top: -10px;
+  text-align: center;
+  color: black;
+}
+.grid1 > .div1 > div{
+  color: #6da9d5;
+  font-size: 14px;
+  margin-top: 8px;
+  text-align: center;
+  /* border: 1px solid black; */
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+}
+.grid1 > .div2{
+  width: 83%;
+  margin: auto;
+  /* border: 1px solid red; */
+}
+.div2 > img{
+  width: 100%;
+}
+.subgrid2{
+  width: 100%;
+  background-color: #f9fcfd;
+}
+.subgrid3{
+  width: 100%;
+  color: white;
+  background-color:black;
+}
+.subgrid3 > .grid1 > .div1 > p:nth-child(2){
+  color: white;
+}
+.subgrid4{
+  width: 100%;
+  background-color: #d8d9da;
+}
+#community{
+  width: 99%;
+  height: 900px;
+  margin: auto;
+  margin-top: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* position: relative; */
+  /* border: 1px solid black; */
+  border: 1px solid gray;
+  background-image: url("https://cloudfront.fitnessblender.com/assets/img/homepage/community-1440.webp");
+}
+.com{
+  width: 100%;
+  height: 250px;
+  /* border: 1px solid black; */
+}
+.com1{
+  width: 30%;
+  height: 100%;
+  margin: auto;
+  border: 1px solid rgba(0, 0, 0, 0);            
+}
+.com1 > p:nth-child(1){
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.com1 > p:nth-child(2){
+  font-size: 18px;
+  line-height: 25px;
+  word-spacing: 2px;
+  width: 92%;
+  margin: auto;
+  /* margin-top: -10px; */
+  text-align: center;
+  color: black;
+}
+.com1 > a{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: #6da9d5;
+  text-decoration: none;
+}
+.com1 > a > p:hover{
+  color: #2c7fb9;
+  text-decoration: underline;
+}
+#start{
+  margin-top: 8px;
+  width: 100%;
+  height: 720px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  background-color: rgb(225, 230, 233);
+}
+.s-cont{
+  width: 85%;
+  height: 85%;        
+  /* border: 1px solid black; */
+}
+.s1 > p{
+  font-size: 40px;
+  word-spacing: 2px;
+}
+.s2 > p{
+  font-size: 20px;
+  color: black;
+}
+.s3{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(1,360px);
+  gap: 15px;
+  /* border: 1px solid red; */
+}
+.s3 > .sub1{
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: white;
+}
+.sub1 > img{
+  width: 100%;
+}
+.s3 > div:hover{
+  border: 3px solid #4f9fd4;
+}
+.sub1 > .p{
+  width: 100%;
+  height: 27%;
+  /* border: 1px solid black; */
+}
+.p > p:nth-child(1){
+  color: #6da9d5;
+  font-size: 14px;
+  word-spacing: 2px;
+}
+.p > p:nth-child(2){
+  color: black;
+  font-size: 14px;
+}
+.sub1 > .p{
+  width: 90%;
+  padding-top: 1px;
+  margin: auto;
+  color: black;
+}
+.bottom{
+  width: 90%;
+  height: auto;
+  margin: auto;
+  /* border: 1px solid black; */
+}
+.lower{
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+}
+.lower > a{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #6da9d5;
+  text-decoration: none;
+}
