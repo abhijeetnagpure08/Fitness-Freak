@@ -1,0 +1,84 @@
+.border{
+    width: 100%;
+    height: 640px;
+    margin-top: 100px;
+    background-color: rgb(200, 197, 197);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid salmon; */
+}
+.border > div{
+    width: 400px;
+    height: 440px;
+    color: white;
+    background-color: rgb(25, 21, 21);
+    /* background-color: #ffffff; */
+    border-radius: 10px;
+    border: 1px solid  #4f9fd4;
+}
+.border > div > div:nth-child(1){
+    width: 100%;
+    height: 20%;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 1px solid  #4f9fd4;
+}
+.border > div > div:nth-child(2){
+    width: 100%;
+    height: 65%;
+    border: 1px solid  #4f9fd4;
+}
+.border > div > div:nth-child(3){
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid  #4f9fd4;
+}
+#signform{
+    border: 1px solid blue;
+    width: 100%;
+    height: 100%;
+    /* padding: 10px 0 0 70px; */
+}
+#signform > #user,#pass,#login{
+    margin-left: 10%;
+}
+#signform > p{
+    margin-left: 10%;
+}
+#user,#pass{
+    height: 12%;
+    width: 80%;
+    padding-left: 5px;
+    border-radius: 5px;
+}
+#signform > #login{
+    width: 50%;
+    height: 12%;
+    color: white;
+    cursor: pointer;
+    border: 0px;
+    margin-top: 1%;
+    border-radius: 5px;
+    background-color: rgb(12, 227, 12);
+    /* margin-left: 80px; */
+}
+@media only screen and (min-width: 400px) and (max-width: 800px){
+    .border > div{
+        width: 400px;
+        height: 440px;
+        color: white;
+        background-color: rgb(25, 21, 21);
+        /* background-color: #ffffff; */
+        border-radius: 10px;
+        border: 1px solid  #4f9fd4;
+    }
+}
