@@ -1,0 +1,320 @@
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+
+/* body{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+#nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    /* margin-top: 100px; */
+    z-index: 10;
+    border-bottom:1px solid rgb(236, 236, 236) ;
+    background-color: white;
+}
+#nav > div:nth-child(1){
+    width: 12%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    /* border: 1px solid red; */
+}
+#nav > div:nth-child(2){
+    width: 55%;
+    height: 70%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+#nav > div:nth-child(3){
+    width: 13%;
+    height: 100%;
+    line-height: px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    border:1px solid rgb(236, 236, 236) ;
+}
+#nav > div:nth-child(1) > img{
+    width: 90%;
+}
+a{
+    text-decoration: none;
+}
+#nav > div:nth-child(2) > a{
+    font-size: 12px;
+    font-weight: 600;
+    height: 100%;
+    color: black;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#nav > div:nth-child(2) > a > span{
+    color: #4296cb;
+}
+#nav > div:nth-child(2) > a:last-child{
+    color:#4296cb;
+}
+#nav > div:nth-child(2) > a:hover{
+    border-bottom: 3px solid #4296cb;
+}
+#nav > div:nth-child(3)>div>a{
+    font-size: 12px;
+    font-weight: 600;
+    color: black;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    /* justify-content: center; */
+}
+#nav > div:nth-child(3)>div{
+    width: 65%;
+    /* border: 1px solid green; */
+}
+#nav > div:nth-child(3)>div>p{
+    margin-bottom: 1px;
+    font-size: 13px;
+    /* text-align: center; */
+    color: #4296cb;
+}
+#nav > div:nth-child(3)>div>a > span{
+    color: #4296cb;
+}
+#nav > div:nth-child(3):hover{
+    border-bottom: 3px solid #4296cb;
+}
+#nav > div:nth-child(4){
+    width: 6%;
+    height: 90%;
+    /* border: 1px solid red; */
+    display: flex;
+}
+#nav > div:nth-child(4)>span{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    margin:30px auto 0px 15px;
+    height: 70%;
+    /* border: 1px solid blue; */
+}
+#nav > div:nth-child(4)>span:hover{
+    border-bottom: 3px solid #4296cb;
+    cursor: pointer;
+}
+#nav > div:nth-child(4)>a>span{
+    width: 65%;
+    display: flex;
+    align-items: center;
+    margin:30px auto 0px 15px;
+    height: 70%;
+    color: black;
+    /* border: 1px solid blue; */
+}
+#nav > div:nth-child(4)>a>span:hover{
+    cursor: pointer;
+    border-bottom: 3px solid #4296cb;
+}
+
+#main-container{
+    width: 100%;
+    /* margin-top: 100px; */
+    border: 1px solid white;
+    /* margin-bottom: 100px; */
+    
+}
+#sub-main{
+    width: 100%;
+    margin-top: 100px;
+}
+#sub-container{
+    /* margin-top: 100px; */
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* border: 3px solid; */
+    background-color: rgb(248,249,255);
+}
+
+#cart-item{
+    width: 55%;
+    /* margin: auto; */
+    /* display: flex; */
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: white;
+    /* gap: 10px; */
+    /* border: 1px solid fuchsia */
+}
+
+
+img{
+    width: 100%;
+    padding: 0;
+}
+
+
+#main_div{
+    width: 100%;
+    display: flex;
+    /* border: 2px solid; */
+    justify-content: space-between;
+    margin-bottom: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    /* border: 1px solid green; */
+}
+#sub_div2{
+    width: 50%;
+    padding: 20px;
+    flex-direction: column;
+    background-color: rgb(229,237,239);
+    /* border: 2px solid green; */
+}
+#div2{
+    width: 92%;
+    height: 30px;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    /* border: 1px solid; */
+    font-size: 25px;
+    /* margin-bottom: 10px; */
+}
+#div1{
+    width: 92%;
+    margin: auto;
+    /* border: 1px solid blue; */
+}
+#div4{
+    margin: auto;
+    width: 30%;
+    /* border: 1px solid rgb(255, 0, 0); */
+    justify-content: center;
+    align-items: center;
+}
+#div4>button{
+    padding: 10px;
+    width: 100px;
+    background-color: #f00909e3;
+    border-radius: 10px;
+}
+#div3{
+    width: 30%;
+    /* height: 100%; */
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    display: flex;
+    
+}
+#sub_div1{
+    width: 50%;
+    /* border: 2px solid yellow; */
+}
+#sub_div1>img{
+    width: 100%;
+    height: 100%;
+}
+button{
+    /* padding: 1px; */
+    width: 30%;
+    font-size: 25px;
+    /* height: 20px; */
+}
+
+
+
+
+
+#bill-page{
+    width: 25%;
+    height: 600px;
+    margin-top: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    /* height: 200px; */
+    /* border: 2px solid; */
+}
+
+#billDiv{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    /* border: 2px solid green; */
+    font-size: 18px;
+    font-weight: 500;
+}
+#bill{
+    /* border: 1px solid black; */
+    margin-bottom: 10px;
+}
+#bill>h1{
+    /* border: 1px solid; */
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.897);
+    margin-bottom: 35px;
+}
+#bill2{
+    display: flex;
+    /* margin-bottom: px; */
+    /* border: 1px solid; */
+    justify-content: space-between;
+}
+#bill3{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+#bill4{
+    display: flex;
+    justify-content: space-between;
+}
+#bill5{
+    display: flex;
+    justify-content: space-between;
+}
+#bill5>p:last-child{
+    color: rgb(0, 161, 27);
+}
+#bill6{
+    display: flex;
+    justify-content: space-between;
+    font-size: 23px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.925);
+}
+#bill7{
+    /* border: 1px solid; */
+    width: 50%;
+    height: 40px;
+    margin: auto;
+}
+#bill7>button{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 210, 9);
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
