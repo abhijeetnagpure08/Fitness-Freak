@@ -1,0 +1,202 @@
+#banner{
+    margin-top: 100px;
+    background-image: url("https://d18zdz9g6n5za7.cloudfront.net/workouts_programs/masthead-workouts.jpg");
+}
+#bottom{
+    width: 100%;
+    height: 80px;
+}
+.bot{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 12px;
+    margin: auto;
+}
+.bot > div > a{
+    color: #2486c7;
+    font-size: 13px;
+    text-decoration: none;
+}
+.bot > div > a:hover{
+    color: #056df5;
+    cursor: pointer;
+    text-decoration: none;
+}
+#cont-2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    background-color: #eef2f4;
+}
+#cont-2 > div{
+    width: 80%;
+    height: 80%;           
+    /* border: 1px solid black; */
+}
+#cont-2 > div > div:nth-child(1){
+    width: 100%;
+    height: 90px;
+    font-size: 40px;
+    /* border: 1px solid red; */
+}
+table{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid black; */
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    border-collapse: collapse;
+}
+td > span{
+    color: #26bc35;
+    padding: 6px;
+}
+tr{
+    border-bottom: 0.5px solid rgb(221, 219, 219);
+}
+td{
+    padding: 6px;
+    font-size: 17px;
+}
+th{
+    text-align: left;
+    padding: 6px;
+    font-size: 20px;
+}
+.member-perk{
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+    background-color: white;
+    display: flex;
+    /* border: 1px solid black; */
+}
+.member-perk > div:nth-child(1){
+    width: 18%;
+    height: 100%;
+    /* border: 1px solid black; */
+}
+.member-perk > div:nth-child(1) > p{
+    font-size: 30px;
+    margin-top: 5px;
+    font-weight: bold;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+.span1{
+    color: #4b9ed6;
+    /* border: 1px solid beige; */
+}
+.span2{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: grey;
+}
+.member-perk > div:nth-child(2){
+    padding-left: 10px;
+    padding-top: 8px;
+    line-height: 30px;
+}
+button{
+    width: 18%;
+    height: 40px;
+    background-color: #4296cb;
+    border-radius: 5px;
+    border: 0px;
+}
+a{
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+    color: white;
+}
+#cont-2 > div > div:nth-child(4){
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+}
+#cont-2 > div > div:nth-child(5){
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+}
+.top{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.top > div > a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #6da9d5;
+    text-decoration: none;
+}
+.top > div > a:hover{
+    text-decoration: none;
+}
+.color{
+    color: #4296cb;
+    cursor: pointer;
+}
+.direction{
+    height: 120px;
+    /* border: 1px solid #004cff; */
+}
+#span{
+    font-weight: normal;
+}
+.direction > div > p{
+    font-size: 14px;
+    padding-left: 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#faq{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #313443;;
+    /* border: 1px solid black; */
+}
+#faq > div:nth-child(1){
+    width: 80%;
+    height: 88%;
+    margin-top: 50px;
+    color: white;
+    /* border: 1px solid black; */
+}
+#faq > div > div{
+    margin-top: 30px;
+    /* border: 1px solid black; */
+}
+span{
+    color:#4b9ed6;
+}
+h1{
+    font-size: 40px;
+    font-weight: normal;
+}
+h2{
+    font-size: 30px;
+    font-weight: normal;
+}
+#white,.white{
+    color: white;
+}
